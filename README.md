@@ -35,6 +35,12 @@ Un Business Operating System con IA en el centro, que conecta los sistemas que l
         |  Conciliacion · Flujo de Caja |
         |  Deteccion de Fraudes         |
         +-------------------------------+
+
+El sistema funciona en tres capas:
+
+Fuentes de datos — SAP, TMS, ERP y otros sistemas corporativos se conectan a la plataforma vía API o carga de archivo
+Capa de IA — Claude API coordina el análisis, detecta inconsistencias y genera recomendaciones en lenguaje natural
+Dashboard Central — KPIs, alertas, conciliación financiera, flujo de caja y detección de fraudes en una sola pantalla
         
 ✨ Funcionalidades Principales
 📊 Central de KPIs y Dashboards
