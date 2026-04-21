@@ -18,24 +18,24 @@ Contratar un consultor financiero resuelve parte del problema — pero es caro, 
 
 🎯 La Solución
 Un Business Operating System con IA en el centro, que conecta los sistemas que la empresa ya utiliza y transforma datos brutos en decisiones.
-         SAP          TMS          ERP        + otros
-          │            │            │            │
-          └────────────┴────────────┴────────────┘
-                                │
-                    ┌───────────▼───────────┐
-                    │      CAPA DE IA       │
-                    │     Claude API        │
-                    │  Coordinación,        │
-                    │  análisis y           │
-                    │  recomendaciones      │
-                    └───────────┬───────────┘
-                                │
-          ┌─────────────────────▼─────────────────────┐
-          │            DASHBOARD CENTRAL               │
-          │   KPIs · Alertas · Conciliación            │
-          │   Flujo de Caja · Fraudes · P&L            │
-          └────────────────────────────────────────────┘
 
+[ SAP ]   [ TMS ]   [ ERP ]   [ + otros ]
+      \         |         |         /
+       \        |         |        /
+        +-------+---------+-------+
+                        |
+               [ CAPA DE IA ]
+               ( Claude API )
+          Coordinacion, analisis
+            y recomendaciones
+                        |
+        +---------------+---------------+
+        |       DASHBOARD CENTRAL       |
+        |  KPIs · Alertas · P&L         |
+        |  Conciliacion · Flujo de Caja |
+        |  Deteccion de Fraudes         |
+        +-------------------------------+
+        
 ✨ Funcionalidades Principales
 📊 Central de KPIs y Dashboards
 
